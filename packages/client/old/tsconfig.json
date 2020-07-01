@@ -1,0 +1,16 @@
+{
+  "extend": "../../tsconfig.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    ".cache"
+  ],
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist"
+  }
+}
